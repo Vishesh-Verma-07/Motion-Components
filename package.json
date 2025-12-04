@@ -9,18 +9,30 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@types/flubber": "^0.4.0",
+    "clsx": "^2.1.1",
+    "flubber": "^0.4.2",
+    "framer-motion": "^12.23.24",
+    "geist": "^1.5.1",
+    "motion": "^12.23.24",
+    "next": "16.0.0",
     "react": "19.2.0",
+    "react-canvas-confetti": "^2.0.7",
     "react-dom": "19.2.0",
-    "next": "16.0.0"
+    "react-icons": "^5.5.0",
+    "tailwind-merge": "^3.3.1"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
-    "eslint-config-next": "16.0.0"
-  }
+    "eslint-config-next": "16.0.0",
+    "prettier": "^3.6.2",
+    "prettier-plugin-tailwindcss": "^0.7.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "packageManager": "yarn@4.7.0+sha512.5a0afa1d4c1d844b3447ee3319633797bcd6385d9a44be07993ae52ff4facabccafb4af5dcd1c2f9a94ac113e5e9ff56f6130431905884414229e284e37bb7c9"
 }
