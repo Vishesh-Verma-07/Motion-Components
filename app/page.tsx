@@ -14,6 +14,7 @@ import LightTrails from "@/components/truck";
 import Truck from "@/components/truck";
 import { use } from "react";
 import { Button } from "@/components/button";
+import ImageText from "@/components/imageBackground";
 export default function Home() {
   return (
     // <div className=" dark:bg-black">
@@ -27,7 +28,8 @@ export default function Home() {
       // <Hold />
       <div className="h-screen w-full flex items-center justify-center">
 
-        <Button >Code with Vis</Button>
+        {/* <Button >Code with Vis</Button> */}
+        <ImageText />
 
       </div>
     // </div>
