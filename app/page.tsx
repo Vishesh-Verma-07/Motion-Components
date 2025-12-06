@@ -15,6 +15,7 @@ import Truck from "@/components/truck";
 import { use } from "react";
 import { Button } from "@/components/button";
 import ImageText from "@/components/imageBackground";
+import DropCard from "@/components/dropCard";
 export default function Home() {
   return (
     // <div className=" dark:bg-black">
@@ -26,10 +27,11 @@ export default function Home() {
       // <Enteranimation />
       // <FollowPointer />
       // <Hold />
-      <div className="h-screen w-full flex items-center justify-center">
+      <div className="flex h-screen items-center justify-center">
 
         {/* <Button >Code with Vis</Button> */}
-        <ImageText />
+        {/* <ImageText /> */}
+        <DropCard />
 
       </div>
     // </div>
