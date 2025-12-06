@@ -17,7 +17,7 @@ const DropCard = () => {
     exit: {
       translateY: 800,
       opacity: [1, 0.8, 0.5, 0.2, 0],
-      rotate: [30, 45, 60, 75, 90],
+      rotate: [-30, -45, -60, -75, -90],
       transition: { duration: 0.5 }
     }
   }
